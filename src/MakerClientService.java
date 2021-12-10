@@ -8,14 +8,8 @@ public class MakerClientService {
 		
 		MakerImplService service = new MakerImplService();
 		MiltiServise con = service.getMakerImplPort();
-		
-		
-		
-		
-		
-		
-		double max = con.getMaxValue(4, 4);
-		double min = con.getMinValue(0, 7);
+		double max = con.getMaxValue(4, 5);
+		double min = con.getMinValue(1, 7);
 		double moy = con.getMoyValue(10, 5, 5, 10);
 		String Upperrname = con.toUpperString("aid");
 		String Lowername = con.toLowerString("AICHA");
